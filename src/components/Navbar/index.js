@@ -48,10 +48,10 @@ function Navbar() {
         <NavDropdown className="navLink" title="Projects" id="nav-dropdown">
           <NavDropdown.Item
             eventKey="4.1"
-            href="https://burger-eat-in.herokuapp.com/burgers"
+            href="https://prepair-final.herokuapp.com/"
             target="_blank"
           >
-            Burger App
+            PrePair
           </NavDropdown.Item>
           <NavDropdown.Item
             eventKey="4.2"
@@ -67,8 +67,8 @@ function Navbar() {
           >
             Weather DashBoard
           </NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item eventKey="4.4">PrePair</NavDropdown.Item>
+          {/* <NavDropdown.Divider /> */}
+          {/* <NavDropdown.Item eventKey="4.4">PrePair</NavDropdown.Item> */}
         </NavDropdown>
       </Nav>
     </div>
