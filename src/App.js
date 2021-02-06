@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { HashRouter as Router } from "react-router-dom";
+// import { HashRouter as Router } from "react-router-dom";
 import AboutMe from "./pages/AboutMe/index"
 import Resume from "./pages/Resume/Resume"
 import Home from "./pages/Home/index"
